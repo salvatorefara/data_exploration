@@ -26,7 +26,7 @@ def ismember(curr_list, check_list):
     
     '''
     
-    return [value in check_list for value in curr_list]
+    return np.array([value in check_list for value in curr_list])
 
 def nan_reject(array_list, match_list=False):
     '''
